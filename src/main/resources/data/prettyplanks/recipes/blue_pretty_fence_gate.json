@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "pretty_fence_gates",
+	"pattern": [
+		"sPs",
+		"sPs"
+	],
+	"key": {
+		"P": {
+			"item": "prettyplanks:blue_pretty_planks"
+		},
+		"s": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "prettyplanks:blue_pretty_fence_gate"
+	}
+}

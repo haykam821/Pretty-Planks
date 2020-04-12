@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"prettyplanks:lime_pretty_fence_gate"
+		]
+	},
+	"criteria": {
+		"has_lime_pretty_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "prettyplanks:lime_pretty_planks"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "prettyplanks:lime_pretty_fence_gate"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_lime_pretty_planks",
+			"has_the_recipe"
+		]
+	]
+}
