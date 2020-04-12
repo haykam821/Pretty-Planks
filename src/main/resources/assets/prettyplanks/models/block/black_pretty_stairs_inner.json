@@ -1,0 +1,8 @@
+{
+	"parent": "block/inner_stairs",
+	"textures": {
+		"bottom": "prettyplanks:block/black_pretty_planks",
+		"top": "prettyplanks:block/black_pretty_planks",
+		"side": "prettyplanks:block/black_pretty_planks"
+	}
+}

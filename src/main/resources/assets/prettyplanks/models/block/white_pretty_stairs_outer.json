@@ -1,0 +1,8 @@
+{
+	"parent": "block/outer_stairs",
+	"textures": {
+		"bottom": "prettyplanks:block/white_pretty_planks",
+		"top": "prettyplanks:block/white_pretty_planks",
+		"side": "prettyplanks:block/white_pretty_planks"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "pretty_stairs",
+	"pattern": [
+		"P  ",
+		"PP ",
+		"PPP"
+	],
+	"key": {
+		"P": {
+			"item": "prettyplanks:purple_pretty_planks"
+		}
+	},
+	"result": {
+		"item": "prettyplanks:purple_pretty_stairs",
+		"count": 4
+	}
+}

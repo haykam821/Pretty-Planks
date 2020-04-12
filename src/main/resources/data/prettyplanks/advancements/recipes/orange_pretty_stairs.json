@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"prettyplanks:orange_pretty_stairs"
+		]
+	},
+	"criteria": {
+		"has_orange_pretty_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "prettyplanks:orange_pretty_planks"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "prettyplanks:orange_pretty_stairs"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_orange_pretty_planks",
+			"has_the_recipe"
+		]
+	]
+}

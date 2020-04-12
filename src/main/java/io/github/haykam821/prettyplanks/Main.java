@@ -1,10 +1,12 @@
 package io.github.haykam821.prettyplanks;
 
+import io.github.haykam821.prettyplanks.block.PrettyStairsBlock;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.MaterialColor;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -19,6 +21,11 @@ public class Main implements ModInitializer {
 		Identifier planksID = new Identifier(MOD_ID, prefix + "_pretty_planks");
 		Block planksBlock = Registry.register(Registry.BLOCK, planksID, new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).materialColor(color).build()));
 		Registry.register(Registry.ITEM, planksID, new BlockItem(planksBlock, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+
+		// Stairs
+		Identifier stairsID = new Identifier(MOD_ID, prefix + "_pretty_stairs");
+		Block stairsBlock = Registry.register(Registry.BLOCK, stairsID, new PrettyStairsBlock(planksBlock));
+		Registry.register(Registry.ITEM, stairsID, new BlockItem(stairsBlock, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
 	}
 
 	@Override
