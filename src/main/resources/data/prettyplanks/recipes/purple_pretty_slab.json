@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "pretty_slabs",
+	"pattern": [
+		"PPP"
+	],
+	"key": {
+		"P": {
+			"item": "prettyplanks:purple_pretty_planks"
+		}
+	},
+	"result": {
+		"item": "prettyplanks:purple_pretty_slab",
+		"count": 6
+	}
+}

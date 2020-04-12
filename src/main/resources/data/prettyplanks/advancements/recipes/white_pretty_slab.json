@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"prettyplanks:white_pretty_slab"
+		]
+	},
+	"criteria": {
+		"has_white_pretty_planks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "prettyplanks:white_pretty_planks"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "prettyplanks:white_pretty_slab"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_white_pretty_planks",
+			"has_the_recipe"
+		]
+	]
+}

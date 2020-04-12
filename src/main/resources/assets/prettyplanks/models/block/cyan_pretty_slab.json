@@ -1,0 +1,8 @@
+{
+	"parent": "block/slab",
+	"textures": {
+		"bottom": "prettyplanks:block/cyan_pretty_planks",
+		"top": "prettyplanks:block/cyan_pretty_planks",
+		"side": "prettyplanks:block/cyan_pretty_planks"
+	}
+}

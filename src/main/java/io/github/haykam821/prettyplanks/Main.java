@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.MaterialColor;
+import net.minecraft.block.SlabBlock;
 import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -26,6 +27,11 @@ public class Main implements ModInitializer {
 		Identifier stairsID = new Identifier(MOD_ID, prefix + "_pretty_stairs");
 		Block stairsBlock = Registry.register(Registry.BLOCK, stairsID, new PrettyStairsBlock(planksBlock));
 		Registry.register(Registry.ITEM, stairsID, new BlockItem(stairsBlock, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+
+		// Slabs
+		Identifier slabsID = new Identifier(MOD_ID, prefix + "_pretty_slab");
+		Block slabsBlock = Registry.register(Registry.BLOCK, slabsID, new SlabBlock(FabricBlockSettings.copy(planksBlock).build()));
+		Registry.register(Registry.ITEM, slabsID, new BlockItem(slabsBlock, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
 	}
 
 	@Override

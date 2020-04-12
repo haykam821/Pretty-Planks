@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "prettyplanks:block/magenta_pretty_slab"
+		},
+		"type=top": {
+			"model": "prettyplanks:block/magenta_pretty_slab_top"
+		},
+		"type=double": {
+			"model": "prettyplanks:block/magenta_pretty_planks"
+		}
+	}
+}
