@@ -1,0 +1,6 @@
+{
+	"parent": "block/button_pressed",
+	"textures": {
+		"texture": "prettyplanks:block/brown_pretty_planks"
+	}
+}

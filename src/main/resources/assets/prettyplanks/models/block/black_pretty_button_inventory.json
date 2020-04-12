@@ -1,0 +1,6 @@
+{
+	"parent": "block/button_inventory",
+	"textures": {
+		"texture": "prettyplanks:block/black_pretty_planks"
+	}
+}

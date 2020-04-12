@@ -1,5 +1,6 @@
 package io.github.haykam821.prettyplanks;
 
+import io.github.haykam821.prettyplanks.block.PrettyButtonBlock;
 import io.github.haykam821.prettyplanks.block.PrettyPressurePlateBlock;
 import io.github.haykam821.prettyplanks.block.PrettyStairsBlock;
 import net.fabricmc.api.ModInitializer;
@@ -49,6 +50,11 @@ public class Main implements ModInitializer {
 		Identifier pressurePlateID = new Identifier(MOD_ID, prefix + "_pretty_pressure_plate");
 		Block pressurePlateBlock = Registry.register(Registry.BLOCK, pressurePlateID, new PrettyPressurePlateBlock(color));
 		Registry.register(Registry.ITEM, pressurePlateID, new BlockItem(pressurePlateBlock, new Item.Settings().group(ItemGroup.REDSTONE)));
+
+		// Pressure plates
+		Identifier buttonID = new Identifier(MOD_ID, prefix + "_pretty_button");
+		Block buttonBlock = Registry.register(Registry.BLOCK, buttonID, new PrettyButtonBlock(color));
+		Registry.register(Registry.ITEM, buttonID, new BlockItem(buttonBlock, new Item.Settings().group(ItemGroup.REDSTONE)));
 	}
 
 	@Override

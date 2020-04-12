@@ -1,0 +1,6 @@
+{
+	"parent": "block/button",
+	"textures": {
+		"texture": "prettyplanks:block/cyan_pretty_planks"
+	}
+}

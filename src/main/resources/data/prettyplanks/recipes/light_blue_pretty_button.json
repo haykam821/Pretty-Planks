@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "pretty_buttons",
+	"ingredients": [
+		{
+			"item": "prettyplanks:light_blue_pretty_planks"
+		}
+	],
+	"result": {
+		"item": "prettyplanks:light_blue_pretty_button"
+	}
+}
