@@ -1,5 +1,6 @@
 package io.github.haykam821.prettyplanks;
 
+import io.github.haykam821.prettyplanks.block.PrettyPressurePlateBlock;
 import io.github.haykam821.prettyplanks.block.PrettyStairsBlock;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.block.FabricBlockSettings;
@@ -43,6 +44,11 @@ public class Main implements ModInitializer {
 		Identifier fenceGateID = new Identifier(MOD_ID, prefix + "_pretty_fence_gate");
 		Block fenceGateBlock = Registry.register(Registry.BLOCK, fenceGateID, new FenceGateBlock(FabricBlockSettings.copy(planksBlock).build()));
 		Registry.register(Registry.ITEM, fenceGateID, new BlockItem(fenceGateBlock, new Item.Settings().group(ItemGroup.REDSTONE)));
+
+		// Pressure plates
+		Identifier pressurePlateID = new Identifier(MOD_ID, prefix + "_pretty_pressure_plate");
+		Block pressurePlateBlock = Registry.register(Registry.BLOCK, pressurePlateID, new PrettyPressurePlateBlock(color));
+		Registry.register(Registry.ITEM, pressurePlateID, new BlockItem(pressurePlateBlock, new Item.Settings().group(ItemGroup.REDSTONE)));
 	}
 
 	@Override

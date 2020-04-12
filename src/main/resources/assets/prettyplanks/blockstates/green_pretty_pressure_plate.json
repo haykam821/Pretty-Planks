@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"powered=false": {
+			"model": "prettyplanks:block/green_pretty_pressure_plate"
+		},
+		"powered=true": {
+			"model": "prettyplanks:block/green_pretty_pressure_plate_down"
+		}
+	}
+}

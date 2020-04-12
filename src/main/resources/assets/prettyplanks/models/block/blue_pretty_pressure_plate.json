@@ -1,0 +1,6 @@
+{
+	"parent": "block/pressure_plate_up",
+	"textures": {
+		"texture": "prettyplanks:block/blue_pretty_planks"
+	}
+}

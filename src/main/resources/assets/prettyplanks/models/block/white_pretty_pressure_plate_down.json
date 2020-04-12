@@ -1,0 +1,6 @@
+{
+	"parent": "block/pressure_plate_down",
+	"textures": {
+		"texture": "prettyplanks:block/white_pretty_planks"
+	}
+}
