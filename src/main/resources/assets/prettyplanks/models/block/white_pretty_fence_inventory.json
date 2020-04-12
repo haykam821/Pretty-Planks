@@ -1,0 +1,6 @@
+{
+	"parent": "block/fence_inventory",
+	"textures": {
+		"texture": "prettyplanks:block/white_pretty_planks"
+	}
+}

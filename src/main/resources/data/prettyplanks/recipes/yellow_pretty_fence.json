@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "pretty_fences",
+	"pattern": [
+		"PsP",
+		"PsP"
+	],
+	"key": {
+		"P": {
+			"item": "prettyplanks:yellow_pretty_planks"
+		},
+		"s": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "prettyplanks:yellow_pretty_fence",
+		"count": 3
+	}
+}

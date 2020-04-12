@@ -1,0 +1,6 @@
+{
+	"parent": "block/fence_post",
+	"textures": {
+		"texture": "prettyplanks:block/light_blue_pretty_planks"
+	}
+}
