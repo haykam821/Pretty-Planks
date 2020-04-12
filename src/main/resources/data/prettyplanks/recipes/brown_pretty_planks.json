@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "pretty_planks",
+	"pattern": [
+		"www",
+		"wdw",
+		"www"
+	],
+	"key": {
+		"w": {
+			"item": "minecraft:oak_planks"
+		},
+		"d": {
+			"item": "minecraft:brown_dye"
+		}
+	},
+	"result": {
+		"item": "prettyplanks:brown_pretty_planks",
+		"count": 8
+	}
+}

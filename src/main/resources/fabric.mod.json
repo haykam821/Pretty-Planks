@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "prettyplanks",
+	"version": "${version}",
+	"name": "Pretty Planks",
+	"description": "Adds 16 dyed types of planks.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Pretty-Planks#readme",
+		"issues": "https://github.com/haykam821/Pretty-Planks/issues"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.prettyplanks.Main"
+		]
+	},
+	"license": "MIT",
+	"icon": "assets/prettyplanks/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
